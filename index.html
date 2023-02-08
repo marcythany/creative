@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="estilo/style.css" />
+		<meta
+			name="description"
+			content="Creative - Pequena lista de Jogos criados por pessoas trans e não-binárias!"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato&family=Silkscreen:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Creative</title>
+	</head>
+	<body onload="carregaJogos()">
+		<header>
+			<h1>Creative</h1>
+			<p>
+				Pequena lista de Jogos desenvolvidos por pessoas trans e não-binárias!
+			</p>
+		</header>
+		<nav>
+			<label for="selectOrdenacao">Ordenar por:</label>
+			<select id="selectOrdenacao">
+				<option value="nome">Nome</option>
+				<option value="descricao">Descrição</option>
+			</select>
+		</nav>
+		<div id="content"></div>
+		<footer>
+			<p>
+				Feito com amor por <span>@MarcyThany</span> -
+				<script>
+					document.write(new Date().getFullYear());
+				</script>
+			</p>
+			<p>
+				<a class="twitter" href="https://twitter.com/MarcyThany" target="_blank"
+					>twitter</a
+				>
+				-
+				<a
+					class="insta"
+					href="https://www.instagram.com/marcythany/"
+					target="_blank"
+					>instagram</a
+				>
+				-
+				<a class="github" href="https://github.com/marcythany" target="_blank"
+					>github</a
+				>
+			</p>
+		</footer>
+		<script src="scripts/scripts.js"></script>
+	</body>
+</html>
